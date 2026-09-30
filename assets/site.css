@@ -1,0 +1,21 @@
+html {
+  scroll-padding-top: 5rem;
+  scrollbar-width: none;
+}
+
+body {
+  margin: 0;
+  overscroll-behavior: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary {
+  list-style: none;
+}
