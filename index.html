@@ -12,7 +12,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="assets/tailwind-config.js"></script>
 </head>
-<body class="bg-surface text-on-surface selection:bg-primary-container selection:text-on-primary-container">
+<body class="bg-surface text-on-surface selection:bg-primary-fixed-dim selection:text-primary">
 <header class="fixed top-0 left-0 right-0 z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.4)]">
   <div class="h-20 max-w-[1360px] mx-auto px-6 lg:px-10 xl:px-12 flex items-center justify-between gap-4">
     <a class="flex items-center gap-3 group shrink-0" href="index.html">
@@ -26,26 +26,26 @@
     </a>
     <nav class="hidden lg:flex items-center gap-4 xl:gap-7" aria-label="Hauptnavigation">
       <a class="uppercase tracking-wider text-primary-container font-label-lg font-bold" href="index.html" aria-current="page">Start</a>
-<a class="font-label-lg text-label-lg uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" href="coaching.html">Coaching</a>
-<a class="font-label-lg text-label-lg uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" href="methodik.html">Methodik</a>
-<a class="font-label-lg text-label-lg uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" href="trainer.html">Trainer</a>
-<a class="font-label-lg text-label-lg uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" href="veranstaltungen.html">Veranstaltungen</a>
-<a class="font-label-lg text-label-lg uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" href="kontakt.html">Kontakt</a>
+<a class="font-label-lg text-label-lg uppercase tracking-wider text-on-surface hover:text-primary-container transition-colors" href="coaching.html">Coaching</a>
+<a class="font-label-lg text-label-lg uppercase tracking-wider text-on-surface hover:text-primary-container transition-colors" href="methodik.html">Methodik</a>
+<a class="font-label-lg text-label-lg uppercase tracking-wider text-on-surface hover:text-primary-container transition-colors" href="trainer.html">Trainer</a>
+<a class="font-label-lg text-label-lg uppercase tracking-wider text-on-surface hover:text-primary-container transition-colors" href="veranstaltungen.html">Veranstaltungen</a>
+<a class="font-label-lg text-label-lg uppercase tracking-wider text-on-surface hover:text-primary-container transition-colors" href="kontakt.html">Kontakt</a>
     </nav>
     <div class="flex items-center gap-3">
-      <a class="hidden md:inline-flex items-center justify-center bg-primary-container text-on-primary-container font-headline-sm text-headline-sm uppercase tracking-wider px-5 py-2.5 rounded-lg hover:shadow-[0_0_20px_rgba(198,248,49,0.35)] transition-all" href="kontakt.html">Coaching anfragen</a>
+      <a class="hidden md:inline-flex items-center justify-center bg-primary-fixed-dim text-primary hover:bg-inverse-primary font-headline-sm text-headline-sm uppercase tracking-wider px-5 py-2.5 rounded-lg transition-all" href="kontakt.html">Coaching anfragen</a>
       <details class="lg:hidden relative">
         <summary class="inline-flex items-center justify-center w-11 h-11 bg-surface-container-high text-primary rounded cursor-pointer" aria-label="Menü öffnen">
           <span class="material-symbols-outlined" aria-hidden="true">menu</span>
         </summary>
         <nav class="absolute right-0 mt-3 w-64 bg-surface-container-high rounded-lg p-4 flex flex-col gap-2 shadow-2xl z-50" aria-label="Mobile Navigation">
           <a class="uppercase tracking-wider text-primary-container font-label-lg font-bold block py-1" href="index.html" aria-current="page">Start</a>
-<a class="font-label-lg text-label-lg uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors block py-1" href="coaching.html">Coaching</a>
-<a class="font-label-lg text-label-lg uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors block py-1" href="methodik.html">Methodik</a>
-<a class="font-label-lg text-label-lg uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors block py-1" href="trainer.html">Trainer</a>
-<a class="font-label-lg text-label-lg uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors block py-1" href="veranstaltungen.html">Veranstaltungen</a>
-<a class="font-label-lg text-label-lg uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors block py-1" href="kontakt.html">Kontakt</a>
-          <a class="mt-2 inline-flex items-center justify-center bg-primary-container text-on-primary-container font-headline-sm text-headline-sm uppercase tracking-wider px-4 py-2.5 rounded-lg" href="kontakt.html">Coaching anfragen</a>
+<a class="font-label-lg text-label-lg uppercase tracking-wider text-on-surface hover:text-primary-container transition-colors block py-1" href="coaching.html">Coaching</a>
+<a class="font-label-lg text-label-lg uppercase tracking-wider text-on-surface hover:text-primary-container transition-colors block py-1" href="methodik.html">Methodik</a>
+<a class="font-label-lg text-label-lg uppercase tracking-wider text-on-surface hover:text-primary-container transition-colors block py-1" href="trainer.html">Trainer</a>
+<a class="font-label-lg text-label-lg uppercase tracking-wider text-on-surface hover:text-primary-container transition-colors block py-1" href="veranstaltungen.html">Veranstaltungen</a>
+<a class="font-label-lg text-label-lg uppercase tracking-wider text-on-surface hover:text-primary-container transition-colors block py-1" href="kontakt.html">Kontakt</a>
+          <a class="mt-2 inline-flex items-center justify-center bg-primary-fixed-dim text-primary hover:bg-inverse-primary font-headline-sm text-headline-sm uppercase tracking-wider px-4 py-2.5 rounded-lg" href="kontakt.html">Coaching anfragen</a>
         </nav>
       </details>
     </div>
@@ -64,8 +64,8 @@
         <p class="font-body-lg text-body-lg text-on-surface max-w-md">Athletiktrainer für Leistungs- und Profisport.</p>
         <p class="font-body-md text-body-md text-on-surface-variant max-w-md">Individuelle Betreuung mit Schwerpunkt auf Schnelligkeit, Kraft und athletischer Leistungsfähigkeit.</p>
         <div class="flex flex-wrap items-center gap-3 pt-2">
-          <a class="inline-flex items-center justify-center min-h-12 bg-primary-container text-on-primary-container font-headline-sm text-headline-sm uppercase tracking-wider px-7 py-3.5 rounded-lg" href="coaching.html">Coaching ansehen</a>
-          <a class="inline-flex items-center justify-center min-h-12 bg-surface-container-high text-primary hover:text-primary-container font-headline-sm text-headline-sm uppercase tracking-wider px-7 py-3.5 rounded-lg transition-colors" href="kontakt.html">Kontakt</a>
+          <a class="inline-flex items-center justify-center min-h-12 bg-primary-fixed-dim text-primary hover:bg-inverse-primary font-headline-sm text-headline-sm uppercase tracking-wider px-7 py-3.5 rounded-lg" href="coaching.html">Coaching ansehen</a>
+          <a class="inline-flex items-center justify-center min-h-12 bg-transparent border border-outline-variant text-primary hover:border-primary-container hover:text-primary-container font-headline-sm text-headline-sm uppercase tracking-wider px-7 py-3.5 rounded-lg transition-colors" href="kontakt.html">Kontakt</a>
         </div>
       </div>
       <div class="lg:col-span-6">
@@ -156,12 +156,12 @@
       <a class="inline-flex items-center gap-2 text-primary-container font-headline-sm text-headline-sm uppercase tracking-wider" href="methodik.html">Methodik ansehen <span class="material-symbols-outlined text-[20px]" aria-hidden="true">trending_flat</span></a>
     </div>
     <ol class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-      <li class="p-5 bg-surface-container rounded-lg"><span class="font-headline-lg text-headline-lg text-primary-container">01</span><p class="font-headline-sm text-headline-sm uppercase text-primary mt-2">Anforderungsanalyse</p></li>
-      <li class="p-5 bg-surface-container rounded-lg"><span class="font-headline-lg text-headline-lg text-primary-container">02</span><p class="font-headline-sm text-headline-sm uppercase text-primary mt-2">Ausgangssituation</p></li>
-      <li class="p-5 bg-surface-container rounded-lg"><span class="font-headline-lg text-headline-lg text-primary-container">03</span><p class="font-headline-sm text-headline-sm uppercase text-primary mt-2">Trainingsplanung</p></li>
-      <li class="p-5 bg-surface-container rounded-lg"><span class="font-headline-lg text-headline-lg text-primary-container">04</span><p class="font-headline-sm text-headline-sm uppercase text-primary mt-2">Durchführung</p></li>
-      <li class="p-5 bg-surface-container rounded-lg"><span class="font-headline-lg text-headline-lg text-primary-container">05</span><p class="font-headline-sm text-headline-sm uppercase text-primary mt-2">Monitoring</p></li>
-      <li class="p-5 bg-surface-container rounded-lg"><span class="font-headline-lg text-headline-lg text-primary-container">06</span><p class="font-headline-sm text-headline-sm uppercase text-primary mt-2">Anpassung</p></li>
+      <li class="p-5 bg-surface-container rounded-lg"><span class="font-headline-lg text-headline-lg text-primary">01</span><p class="font-headline-sm text-headline-sm uppercase text-primary mt-2">Anforderungsanalyse</p></li>
+      <li class="p-5 bg-surface-container rounded-lg"><span class="font-headline-lg text-headline-lg text-primary">02</span><p class="font-headline-sm text-headline-sm uppercase text-primary mt-2">Ausgangssituation</p></li>
+      <li class="p-5 bg-surface-container rounded-lg"><span class="font-headline-lg text-headline-lg text-primary">03</span><p class="font-headline-sm text-headline-sm uppercase text-primary mt-2">Trainingsplanung</p></li>
+      <li class="p-5 bg-surface-container rounded-lg"><span class="font-headline-lg text-headline-lg text-primary">04</span><p class="font-headline-sm text-headline-sm uppercase text-primary mt-2">Durchführung</p></li>
+      <li class="p-5 bg-surface-container rounded-lg"><span class="font-headline-lg text-headline-lg text-primary">05</span><p class="font-headline-sm text-headline-sm uppercase text-primary mt-2">Monitoring</p></li>
+      <li class="p-5 bg-surface-container rounded-lg"><span class="font-headline-lg text-headline-lg text-primary">06</span><p class="font-headline-sm text-headline-sm uppercase text-primary mt-2">Anpassung</p></li>
     </ol>
   </div>
 </section>
@@ -204,7 +204,7 @@
         <h2 class="font-headline-xl text-headline-xl uppercase text-primary">Interesse an einer Zusammenarbeit?</h2>
         <p class="font-body-md text-body-md text-on-surface-variant mt-3">Kurze Anfrage genügt. Das Formular liegt auf der Kontaktseite.</p>
       </div>
-      <a class="inline-flex items-center justify-center bg-primary-container text-on-primary-container font-headline-sm text-headline-sm uppercase tracking-wider px-8 py-4 rounded-lg shrink-0" href="kontakt.html">Kontakt aufnehmen</a>
+      <a class="inline-flex items-center justify-center bg-primary-fixed-dim text-primary hover:bg-inverse-primary font-headline-sm text-headline-sm uppercase tracking-wider px-8 py-4 rounded-lg shrink-0" href="kontakt.html">Kontakt aufnehmen</a>
     </div>
   </div>
 </section>
