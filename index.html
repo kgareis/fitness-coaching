@@ -12,40 +12,34 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="assets/tailwind-config.js"></script>
 </head>
-<body class="bg-surface text-on-surface selection:bg-primary-fixed-dim selection:text-primary">
-<header class="fixed top-0 left-0 right-0 z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.4)]">
+<body class="bg-surface text-on-surface selection:bg-white selection:text-black">
+<header class="fixed top-0 left-0 right-0 z-50 bg-black border-b border-[#242424]">
   <div class="h-20 max-w-[1360px] mx-auto px-6 lg:px-10 xl:px-12 flex items-center justify-between gap-4">
-    <a class="flex items-center gap-3 group shrink-0" href="index.html">
-      <div class="p-1 bg-surface-container-high rounded-full flex items-center justify-center">
-        <img alt="" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1Xo4n-j1izsosG-BrzHqcpnFSMvpcrGVJaExK4xN2H6tL-uzv5MBdVYBYUFcBhVNHtIO4UBroscua4EouQViaxOa4AT6l875THCrRLGUmicQ2GyjktbXSg4sGXVEAB3OEgp6kKatwyVXfzSQa1hKn1bbuCl5243vWf7CFI2R6KyWJVQBY7zLkDsbdhQu5g_R5jS3_OhbAlrPiVOAlGSJVhlMnY08lhHJEiI8hct9OaB-864CpA_nG1qGyoSKNsDMpHIviu2R-r28FA"/>
-      </div>
-      <div class="flex flex-col">
-        <span class="font-headline-sm text-headline-sm uppercase tracking-wider text-primary group-hover:text-primary-container transition-colors">REZLER</span>
-        <span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant -mt-1">Performance</span>
-      </div>
-    </a>
+    <a class="site-brand shrink-0 flex items-center" href="index.html" aria-label="REZLER Performance">
+        <img class="site-logo" alt="REZLER" src="assets/rezler_gold_script_wordmark.png"/>
+      </a>
     <nav class="hidden lg:flex items-center gap-4 xl:gap-7" aria-label="Hauptnavigation">
-      <a class="uppercase tracking-wider text-primary-container font-label-lg font-bold" href="index.html" aria-current="page">Start</a>
-<a class="font-label-lg text-label-lg uppercase tracking-wider text-on-surface hover:text-primary-container transition-colors" href="coaching.html">Coaching</a>
-<a class="font-label-lg text-label-lg uppercase tracking-wider text-on-surface hover:text-primary-container transition-colors" href="methodik.html">Methodik</a>
-<a class="font-label-lg text-label-lg uppercase tracking-wider text-on-surface hover:text-primary-container transition-colors" href="trainer.html">Trainer</a>
-<a class="font-label-lg text-label-lg uppercase tracking-wider text-on-surface hover:text-primary-container transition-colors" href="veranstaltungen.html">Veranstaltungen</a>
-<a class="font-label-lg text-label-lg uppercase tracking-wider text-on-surface hover:text-primary-container transition-colors" href="kontakt.html">Kontakt</a>
+      <a class="uppercase tracking-wider text-white font-label-lg border-b border-white pb-0.5" href="index.html" aria-current="page">Start</a>
+<a class="font-label-lg text-label-lg uppercase tracking-wider text-[#BDBDBD] hover:text-white transition-colors" href="coaching.html">Coaching</a>
+<a class="font-label-lg text-label-lg uppercase tracking-wider text-[#BDBDBD] hover:text-white transition-colors" href="methodik.html">Methodik</a>
+<a class="font-label-lg text-label-lg uppercase tracking-wider text-[#BDBDBD] hover:text-white transition-colors" href="trainer.html">Trainer</a>
+<a class="font-label-lg text-label-lg uppercase tracking-wider text-[#BDBDBD] hover:text-white transition-colors" href="veranstaltungen.html">Veranstaltungen</a>
+<a class="font-label-lg text-label-lg uppercase tracking-wider text-[#BDBDBD] hover:text-white transition-colors" href="kontakt.html">Kontakt</a>
     </nav>
     <div class="flex items-center gap-3">
-      <a class="hidden md:inline-flex items-center justify-center bg-primary-fixed-dim text-primary hover:bg-inverse-primary font-headline-sm text-headline-sm uppercase tracking-wider px-5 py-2.5 rounded-lg transition-all" href="kontakt.html">Coaching anfragen</a>
+      <a class="hidden md:inline-flex items-center justify-center border border-[#242424] text-white hover:border-white font-headline-sm text-headline-sm uppercase tracking-wider px-5 py-2.5 rounded-lg transition-colors" href="kontakt.html">Coaching anfragen</a>
       <details class="lg:hidden relative">
-        <summary class="inline-flex items-center justify-center w-11 h-11 bg-surface-container-high text-primary rounded cursor-pointer" aria-label="Menü öffnen">
+        <summary class="inline-flex items-center justify-center w-11 h-11 border border-[#242424] text-white rounded cursor-pointer" aria-label="Menü öffnen">
           <span class="material-symbols-outlined" aria-hidden="true">menu</span>
         </summary>
-        <nav class="absolute right-0 mt-3 w-64 bg-surface-container-high rounded-lg p-4 flex flex-col gap-2 shadow-2xl z-50" aria-label="Mobile Navigation">
-          <a class="uppercase tracking-wider text-primary-container font-label-lg font-bold block py-1" href="index.html" aria-current="page">Start</a>
-<a class="font-label-lg text-label-lg uppercase tracking-wider text-on-surface hover:text-primary-container transition-colors block py-1" href="coaching.html">Coaching</a>
-<a class="font-label-lg text-label-lg uppercase tracking-wider text-on-surface hover:text-primary-container transition-colors block py-1" href="methodik.html">Methodik</a>
-<a class="font-label-lg text-label-lg uppercase tracking-wider text-on-surface hover:text-primary-container transition-colors block py-1" href="trainer.html">Trainer</a>
-<a class="font-label-lg text-label-lg uppercase tracking-wider text-on-surface hover:text-primary-container transition-colors block py-1" href="veranstaltungen.html">Veranstaltungen</a>
-<a class="font-label-lg text-label-lg uppercase tracking-wider text-on-surface hover:text-primary-container transition-colors block py-1" href="kontakt.html">Kontakt</a>
-          <a class="mt-2 inline-flex items-center justify-center bg-primary-fixed-dim text-primary hover:bg-inverse-primary font-headline-sm text-headline-sm uppercase tracking-wider px-4 py-2.5 rounded-lg" href="kontakt.html">Coaching anfragen</a>
+        <nav class="absolute right-0 mt-3 w-64 bg-black border border-[#242424] rounded-lg p-4 flex flex-col gap-2 z-50" aria-label="Mobile Navigation">
+          <a class="uppercase tracking-wider text-white font-label-lg border-b border-white pb-0.5 w-fit" href="index.html" aria-current="page">Start</a>
+<a class="font-label-lg text-label-lg uppercase tracking-wider text-[#BDBDBD] hover:text-white transition-colors block py-1" href="coaching.html">Coaching</a>
+<a class="font-label-lg text-label-lg uppercase tracking-wider text-[#BDBDBD] hover:text-white transition-colors block py-1" href="methodik.html">Methodik</a>
+<a class="font-label-lg text-label-lg uppercase tracking-wider text-[#BDBDBD] hover:text-white transition-colors block py-1" href="trainer.html">Trainer</a>
+<a class="font-label-lg text-label-lg uppercase tracking-wider text-[#BDBDBD] hover:text-white transition-colors block py-1" href="veranstaltungen.html">Veranstaltungen</a>
+<a class="font-label-lg text-label-lg uppercase tracking-wider text-[#BDBDBD] hover:text-white transition-colors block py-1" href="kontakt.html">Kontakt</a>
+          <a class="mt-2 inline-flex items-center justify-center border border-[#242424] text-white font-headline-sm text-headline-sm uppercase tracking-wider px-4 py-2.5 rounded-lg" href="kontakt.html">Coaching anfragen</a>
         </nav>
       </details>
     </div>
@@ -53,24 +47,19 @@
 </header>
 <main class="w-full pt-20 bg-surface min-h-[calc(100vh-280px)]">
 
-<section class="relative w-full bg-surface-container-lowest">
-  <div class="max-w-[1360px] mx-auto px-6 lg:px-12">
-    <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center py-14 sm:py-16 lg:py-20 lg:min-h-[calc(100vh-5rem)]">
-      <div class="lg:col-span-6 flex flex-col gap-5 lg:gap-6 lg:pr-4">
-        <p class="font-label-sm text-label-sm uppercase tracking-widest text-primary-container">Athletiktraining · Performance Coaching</p>
-        <h1 class="font-display-hero font-extrabold uppercase text-primary leading-[0.86] tracking-tight text-display-hero-mobile sm:text-[72px] lg:text-display-hero">
-          Christoph<br/>Rezler
-        </h1>
-        <p class="font-body-lg text-body-lg text-on-surface max-w-md">Athletiktrainer für Leistungs- und Profisport.</p>
-        <p class="font-body-md text-body-md text-on-surface-variant max-w-md">Individuelle Betreuung mit Schwerpunkt auf Schnelligkeit, Kraft und athletischer Leistungsfähigkeit.</p>
-        <div class="flex flex-wrap items-center gap-3 pt-2">
-          <a class="inline-flex items-center justify-center min-h-12 bg-primary-fixed-dim text-primary hover:bg-inverse-primary font-headline-sm text-headline-sm uppercase tracking-wider px-7 py-3.5 rounded-lg" href="coaching.html">Coaching ansehen</a>
-          <a class="inline-flex items-center justify-center min-h-12 bg-transparent border border-outline-variant text-primary hover:border-primary-container hover:text-primary-container font-headline-sm text-headline-sm uppercase tracking-wider px-7 py-3.5 rounded-lg transition-colors" href="kontakt.html">Kontakt</a>
-        </div>
+<section class="home-hero relative w-full bg-black text-white">
+  <div class="home-hero-inner max-w-[1440px] mx-auto px-6 lg:px-10">
+    <h1 class="hero-name">
+      <span class="hero-name-first">Christoph</span>
+      <span class="hero-name-last">R<a class="hero-name-easter" href="https://fresh.warcraftlogs.com/character/eu/thunderstrike/tulsam%C3%AE" target="_blank" rel="noopener noreferrer" aria-label="Warcraft Logs – Tulsamî">e</a>zler</span>
+    </h1>
+    <div class="home-hero-row">
+      <div class="home-hero-role">
+        <p class="home-hero-role-lead">Athletiktrainer für<br/>Leistungs- und<br/>Profisport.</p>
+        <span class="home-hero-role-rule" aria-hidden="true"></span>
+        <p class="home-hero-services">Personal Coaching<br/>Online Coaching</p>
       </div>
-      <div class="lg:col-span-6">
-        <img class="w-full max-h-[72vh] sm:max-h-[78vh] lg:max-h-[82vh] mx-auto object-cover object-center rounded-xl" alt="Christoph Rezler" src="assets/christoph-hero.jpg"/>
-      </div>
+      <img class="home-hero-photo" alt="Christoph Rezler auf dem Platz" src="assets/christoph-hero.jpg"/>
     </div>
   </div>
 </section>

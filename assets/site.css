@@ -19,3 +19,141 @@ summary::-webkit-details-marker {
 summary {
   list-style: none;
 }
+
+.site-logo {
+  display: block;
+  height: 44px;
+  width: auto;
+}
+
+@media (min-width: 768px) {
+  .site-logo {
+    height: 56px;
+  }
+}
+
+.home-hero-inner {
+  padding-top: 0.75rem;
+  padding-bottom: 1.25rem;
+}
+
+.hero-name {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+}
+
+.hero-name-first,
+.hero-name-last {
+  width: max-content;
+  max-width: 100%;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 0.78;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+
+.hero-name-first {
+  font-size: clamp(58px, 16vw, 84px);
+}
+
+.hero-name-last {
+  font-size: clamp(68px, 18vw, 96px);
+}
+
+.hero-name-easter,
+.hero-name-easter:visited,
+.hero-name-easter:hover,
+.hero-name-easter:active,
+.hero-name-easter:focus {
+  font: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  color: inherit;
+  text-decoration: none;
+  background: none;
+  cursor: pointer;
+}
+
+.hero-name-easter:focus-visible {
+  outline: 1px solid #ffffff;
+  outline-offset: 2px;
+}
+
+.home-hero-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+  margin-top: 1.25rem;
+  align-items: start;
+}
+
+.home-hero-role {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.15rem;
+  max-width: 22rem;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  color: #bdbdbd;
+}
+
+.home-hero-role p {
+  margin: 0;
+}
+
+.home-hero-role-lead {
+  font-size: clamp(24px, 2.5vw, 34px);
+  line-height: 1.25;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.home-hero-role-rule {
+  display: block;
+  width: 2.25rem;
+  height: 1px;
+  background: #5a5a5a;
+}
+
+.home-hero-services {
+  font-size: clamp(18px, 1.35vw, 21px);
+  line-height: 1.5;
+  font-weight: 500;
+  color: #c8c8c8;
+}
+
+.home-hero-photo {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+@media (min-width: 1024px) {
+  .home-hero-inner {
+    padding-top: 0.35rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .hero-name-first {
+    font-size: clamp(112px, 10.6vw, 158px);
+  }
+
+  .hero-name-last {
+    font-size: clamp(132px, 12.6vw, 188px);
+  }
+
+  .home-hero-row {
+    grid-template-columns: minmax(240px, 30%) minmax(0, 1fr);
+    column-gap: 2.5rem;
+    margin-top: 1rem;
+    align-items: center;
+  }
+}
